@@ -8,5 +8,7 @@ public let testValidation: ((ContextType) -> Void) = {
 
   $0.describe("#format") {
     $0.describe("duration", closure: testDurationFormat)
+    $0.describe("idn-email", closure: testIDNEmailFormat)
+    $0.describe("email", closure: testEmailFormat)
   }
 }

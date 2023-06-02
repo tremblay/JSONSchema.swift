@@ -65,6 +65,8 @@ public class Draft201909Validator: Validator {
     "time": validateTime,
     "date": validateDate,
     "date-time": validateDateTime,
+    "email": validateEmail,
+    "idn-email": validateIDNEmail,
   ]
 
   public required init(schema: Bool) {
